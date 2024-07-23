@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+PyPDF2
+pytest
+transformers
+torch
+numpy
