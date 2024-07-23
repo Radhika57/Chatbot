@@ -6,7 +6,6 @@ from transformers import pipeline
 
 app = FastAPI()
 
-# Initialize the Hugging Face pipeline
 question_answerer = pipeline("question-answering")
 
 def extract_text_from_pdf(file: UploadFile) -> str:
